@@ -20,3 +20,5 @@ pytest -v
 ## CI/CD
 Файл `.github/workflows/ci.yml`: при каждом push и pull request запускаются
 job `build` (установка зависимостей и проверка сборки) и job `test` (pytest).
+
+Повторный запуск CI после изменения.
